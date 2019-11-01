@@ -15,7 +15,7 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli.empty? 
     katz_deli.push(name)
-        puts "Welcome, #{name}. You are number #{index + 1} in line." 
+        puts "Welcome, #{name}. You are number #{katz_deli.length} in line." 
       end
   else 
      puts "The line is currently empty."
