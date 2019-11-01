@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.empty? 
-    katz_deli.each_with_index do |name, index| 
+    katz_deli.
         puts "Welcome, #{name}. You are number #{index + 1} in line." 
       end
   else 
