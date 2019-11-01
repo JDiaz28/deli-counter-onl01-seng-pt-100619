@@ -13,7 +13,7 @@ def line(katz_deli)
 end 
 
 def take_a_number(katz_deli, name)
-  if !katz_deli.empty? 
+  if katz_deli.empty? 
     
      katz_deli.each_with_index do |name, index| 
         puts "Welcome, #{name}. You are number #{index + 1} in line." 
